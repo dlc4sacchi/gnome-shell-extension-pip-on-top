@@ -4,5 +4,8 @@
     <key name="stick" type="b">
       <default>false</default>
     </key>
+    <key name="remember-position" type="b">
+      <default>false</default>
+    </key>
   </schema>
 </schemalist>

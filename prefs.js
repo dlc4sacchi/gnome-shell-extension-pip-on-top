@@ -26,6 +26,7 @@ export default class PipOnTopPrefs extends ExtensionPreferences {
       });
 
       _addToggle(group, settings, 'Show on all workspaces', 'stick');
+      _addToggle(group, settings, 'Remember last PiP position', 'remember-position');
 
       page.add(group);
       window.add(page);
